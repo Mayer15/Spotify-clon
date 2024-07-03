@@ -1,81 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Spotify clone project</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="sidebar">
-        <div class="logo">
-            <img src="spotify-logo.png" alt="Spotify logo">
+      <div class="logo">
+        <img src="./images/spotify-logo.jpg" alt="Spotify logo" />
+      </div>
+
+      <ul class="nav">
+        <li>Nav</li>
+        <li>Search</li>
+        <li>Your Library</li>
+      </ul>
     </div>
-
-        <ul class="nav">
-            <li>Nav</li>
-            <li>Search</li>
-            <li>Your Library</li>
-
-        </ul>
-        </div>
-        <div class="main content">
-            <div class="header">
-                <h1>Good Evening</h1>
-               </div> 
-       <h2>Playlists</h2>
-       <div class="playlists">
-        <img src="playlist-cover.jpg" alt="Playlist Cover">
+    <div class="main content">
+      <div class="header">
+        <h1>Good Evening</h1>
+      </div>
+      <h2>Playlists</h2>
+      <div class="playlists">
+        <img src="./images/playlist-cover.jpg" alt="Playlist Cover" />
         <p>Playlist1</p>
-       </div>
-
-       <div class="playlists">
-        <img src="playlist-cover.jpg" alt="Playlist Cover">
-        <p>Playlist2</p> 
-    </div>
-
-       <div class="playlists">
-        <img src="playlist-cover.jpg" alt="Playlist Cover">
-        <p>Playlist3</p>
-    </div>
-
-    <div class="playlists">
-        <img src="playlist-cover.jpg" alt="Playlist Cover">
-        <p>Playlist4</p>
-    </div>
-
-    <div class="playlists">
-        <img src="playlist-cover.jpg" alt="Playlist Cover">
-        <p>Playlist5</p>
-
-    </div>
-
-    <div class="footer">
-        <div class="now playing">
-            <img src="cover.jpg" alt="Cover Art">
-            <div class="song info">
-                <p>Song Title</p>
-                <p>Artist Name</p>
-                 </div>
-
-           <div class="controls">
-            <button>Prev</button>
-            <button>Play</button>
-            <button>Next</button>
-           </div>
-
+        <div>
+          <p>Audio Here</p>
+          <p>Audio Play</p>
+          <audio id="audio" src="./songs/Color_Out_-_Host.mp3"></audio>
         </div>
+      </div>
 
+      <div class="playlists">
+        <img src="./images/playlist-cover.jpg" alt="Playlist Cover" />
+        <p>Playlist2</p>
+      </div>
+
+      <div class="playlists">
+        <img src="./images/playlist-cover.jpg" alt="Playlist Cover" />
+        <p>Playlist3</p>
+      </div>
+
+      <div class="playlists">
+        <img src="./images/playlist-cover.jpg" alt="Playlist Cover" />
+        <p>Playlist4</p>
+      </div>
+
+      <div class="playlists">
+        <img src="./images/playlist-cover.jpg" alt="Playlist Cover" />
+        <p>Playlist5</p>
+      </div>
+
+      <div class="footer">
+        <div class="now playing">
+          <img src="./images/playlist-cover.jpg" alt="Cover Art" />
+          <div class="song info">
+            <p>Song Title</p>
+            <p>Artist Name</p>
+          </div>
+
+          <div class="controls">
+            <button id="prev">Prev</button>
+            <button id="play">Play</button>
+            <button id="next">Next</button>
+          </div>
+        </div>
+      </div>
     </div>
-
-
-      
- </div>
-            
-
-       
-
-    
-</body>
+  </body>
 </html>
